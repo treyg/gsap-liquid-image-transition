@@ -29,3 +29,22 @@
 .intro p {
     font-size: 25px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 880px) {
+    .landing{
+        display: flex;
+        flex-direction: column;
+       height: 100vh;
+       
+    }
+
+    .intro h2 {
+        font-size: 25px;
+    }
+
+    .intro p {
+        font-size: 18px;
+    }
+
+
+    }
